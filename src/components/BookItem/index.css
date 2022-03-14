@@ -1,0 +1,84 @@
+.book-container {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .book-container {
+    width: 100%;
+  }
+}
+
+.book-cover-pic {
+  min-width: 133px;
+  height: 155px;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+.book-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 15px;
+  color: #334155;
+  font-family: 'Roboto';
+  text-align: start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.author {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  font-family: 'Roboto';
+  color: #475569;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.book-item-other-text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 0px;
+  font-family: 'Roboto';
+  color: #475569;
+}
+
+.book-item-status {
+  color: #0284c7;
+  margin-left: 4px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.star-icon {
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  color: #fbbf24;
+}
+
+.book-item-rating {
+  font-size: 14px;
+  color: #334155;
+  font-weight: 400px;
+  font-family: 'Roboto';
+  margin-left: 5px;
+}
+
+.book-item-link {
+  text-decoration: none;
+  display: flex;
+}

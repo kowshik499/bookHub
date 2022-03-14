@@ -1,0 +1,39 @@
+.bookshelf-list-item-button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: 'Roboto';
+  color: #475569;
+  text-align: start;
+}
+
+.active {
+  color: #0284c7;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+  .bookshelf-list-item-button {
+    border: 1px solid #0284c7;
+    border-radius: 25px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #0284c7;
+    font-weight: 500;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .active {
+    color: #ffffff;
+    background-color: #0284c7;
+  }
+}
