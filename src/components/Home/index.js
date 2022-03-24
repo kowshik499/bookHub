@@ -32,14 +32,14 @@ const settings = {
       },
     },
     {
-      breakpoint: 600,
+      breakpoint: 680,
       settings: {
         slidesToShow: 3,
         slidesToScroll: 1,
       },
     },
     {
-      breakpoint: 480,
+      breakpoint: 500,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
@@ -151,7 +151,7 @@ class Home extends Component {
     return (
       <>
         <Header />
-        <div className="home-container">
+        <div className="home-background-container">
           <div className="home-details-container">
             <h1 className="home-head">Find Your Next Favorite Books</h1>
             <p className="home-description">

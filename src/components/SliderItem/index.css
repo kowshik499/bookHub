@@ -30,7 +30,24 @@
   text-align: center;
 }
 
-@media screen and (max-width: 995px) {
+@media screen and (min-width: 1025px) and (max-width: 1300px) {
+  .slider-item-cover-pic {
+    width: 200px;
+    height: 140px;
+  }
+
+  .slider-item-author-name {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .slider-item-title {
+    font-size: 15px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
   .slider-item-cover-pic {
     width: 145px;
     height: 100px;

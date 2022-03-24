@@ -32,6 +32,13 @@
   align-items: center;
 }
 
+@media screen and (min-width: 768px) {
+  .book-details-container {
+    margin-left: 50px;
+    width: 85%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .book-details-container {
     background-color: transparent;

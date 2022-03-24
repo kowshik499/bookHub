@@ -17,6 +17,13 @@
   width: 90%;
 }
 
+@media screen and (min-width: 768px) {
+  .bookshelf-main-container {
+    margin-left: 50px;
+    width: 85%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .bookshelf-main-container {
     flex-direction: column;
