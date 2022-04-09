@@ -32,14 +32,14 @@ const settings = {
       },
     },
     {
-      breakpoint: 1700,
+      breakpoint: 1300,
       settings: {
         slidesToShow: 3,
         slidesToScroll: 1,
       },
     },
     {
-      breakpoint: 500,
+      breakpoint: 550,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
