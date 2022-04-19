@@ -4,6 +4,17 @@ In this project I've built a **Book Hub** by applying the concepts of React.js
 
 I've created an app that will fetch data from an internal server using a class component, displaying that data, using **component lifecycle** methods, **routing** concepts, **authentication**, and **authorization**, and adding responsiveness to the website.
 
+#### Click <a href="https://bookhubbyk.ccbp.tech/" target="_blank">here</a> to check out my project
+
+#### Application Video
+<details>
+<summary>Click to view</summary>
+
+- You can check the **Explanation Video** of my project over <a href="https://www.youtube.com/watch?v=Oa4fDjBsaJA&ab_channel=kowshikatmakuri" target="_blank">here</a>.
+
+</details>
+
+
 #### Design Files
 
 <details>
